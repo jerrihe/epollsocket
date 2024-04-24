@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/jerri/project/server/trunk/lib/libcommon.a CMakeFiles/common.dir/TimeHepler.cpp.o
+/usr/bin/ranlib /home/jerri/project/server/trunk/lib/libcommon.a

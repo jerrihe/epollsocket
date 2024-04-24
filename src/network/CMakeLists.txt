@@ -1,0 +1,15 @@
+
+# 设置静态库名
+SET(LIB_NAME network)
+
+# 头文件路径
+INCLUDE_DIRECTORIES(.)
+INCLUDE_DIRECTORIES(../common)
+# 指定库路径
+# LINK_DIRECTORIES(${THIRDPARTY}/lib)
+
+# 源文件
+AUX_SOURCE_DIRECTORY(. SRC)
+
+# 生成静态态库
+ADD_LIBRARY(${LIB_NAME} ${SRC})

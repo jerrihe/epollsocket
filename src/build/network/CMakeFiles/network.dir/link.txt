@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/jerri/project/server/trunk/lib/libnetwork.a CMakeFiles/network.dir/Agent.cpp.o CMakeFiles/network.dir/AgentManager.cpp.o CMakeFiles/network.dir/Connect.cpp.o CMakeFiles/network.dir/EpollUnit.cpp.o CMakeFiles/network.dir/Listen.cpp.o CMakeFiles/network.dir/ProcMsg.cpp.o CMakeFiles/network.dir/Tcp.cpp.o
+/usr/bin/ranlib /home/jerri/project/server/trunk/lib/libnetwork.a
